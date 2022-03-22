@@ -15,7 +15,6 @@ jobs:
         uses: subosito/flutter-action@4389e6cbc6cb8a4b18c628ff96ff90be0e926aa8
         with:
           channel: master
-      - run: cd app
       - run: flutter doctor -v
       - name: Install web dependencies
         uses: actions/setup-node@v1
@@ -29,13 +28,11 @@ jobs:
       - run: flutter pub get
 
       # Build and deploy (by default, to staging).
-      - run: cd app && flutter build -v web --release
-      - run: firebase deploy -P ${{ github.event.inputs.environment || 'staging' }}
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        - uses: FirebaseExtended/action-hosting-deploy@v0
-          with:
-            repoToken: '${{ secrets.GITHUB_TOKEN }}'
-            firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PAMPADYCATHEDRAL1 }}'
-            channelId: live
-            projectId: pampadycathedral1
+      - name: Building binaries
+      - run: flutter build -v web --release
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PAMPADYCATHEDRAL1 }}'
+          channelId: live
+          projectId: pampadycathedral1
