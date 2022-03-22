@@ -29,7 +29,7 @@ jobs:
       - run: flutter pub get
 
       # Build and deploy (by default, to staging).
-      - run: flutter build -v web --release
+      - run: cd app && flutter build -v web --release
       - run: firebase deploy -P ${{ github.event.inputs.environment || 'staging' }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
