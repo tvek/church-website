@@ -1,0 +1,38 @@
+{
+  "siteName": "Pampady Cathedral",
+  "@siteName": {
+    "description": "Name of the website"
+  },
+  "mainMenuHeader": "Main menu",
+  "@siteName": {
+    "description": "Message on main menu header"
+  },
+  "homeMenu": "Home",
+  "@homeMenu": {
+    "description": "Message on Home in menu"
+  },
+  "aboutMenu": "About Us",
+  "@aboutMenu": {
+    "description": "Message on About in menu"
+  },
+  "bannerText1": "Title 1",
+  "@bannerText1": {
+    "description": "Message on Banner in main menu"
+  },
+  "bannerText2": "Title 2",
+  "@bannerText2": {
+    "description": "Message on Banner in main menu"
+  },
+  "bannerText3": "Title 3",
+  "@bannerText3": {
+    "description": "Message on Banner in main menu"
+  },
+  "bannerText4": "Title 4",
+  "@bannerText4": {
+    "description": "Message on Banner in main menu"
+  },
+  "bannerText5": "Title 5",
+  "@bannerText5": {
+    "description": "Message on Banner in main menu"
+  }
+}
