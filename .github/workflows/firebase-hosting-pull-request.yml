@@ -15,7 +15,7 @@ jobs:
           channel: 'any'
       - run: flutter --version && npm install -g firebase-tools
       - run: cd app && flutter pub get
-      - run: cd app && flutter build -v web --release
+      - run: cd app && flutter build -v web --release && cp -vrf web/* ../public/web/
       - run: cd app && flutter pub run dart_code_metrics:metrics --reporter=github lib
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
