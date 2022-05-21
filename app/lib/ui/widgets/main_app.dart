@@ -1,5 +1,10 @@
 import 'package:app/tvek_flutter_core/localization/tvek_app_localization.dart';
+import 'package:app/tvek_flutter_core/localization/tvek_page.dart';
 import 'package:app/ui/widgets/about_page.dart';
+import 'package:app/ui/widgets/prayer_timing_view.dart';
+import 'package:app/ui/widgets/routemap_view.dart';
+import 'package:app/ui/widgets/saints_view.dart';
+import 'package:app/ui/widgets/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 import 'homepage.dart';
@@ -36,14 +41,17 @@ class _MainAppState extends State<MainApp> {
       localizationsDelegates: TVEKAppLocalization.getLocalizationDelegate(),
       supportedLocales: TVEKAppLocalization.getSupportedLocales(),
       theme: ThemeData(
-        primarySwatch: Colors.orange,
-        secondaryHeaderColor: Colors.blueAccent
+        primarySwatch: Colors.primaries.last,
+        secondaryHeaderColor: Colors.blueAccent,
       ),
       locale: _locale,
       debugShowCheckedModeBanner: false,
       home: HomePage(),
       routes: {
-        'about': (context) => AboutPage()
+        '/about': (context) => AboutPage(),
+        '/prayer-timings': (context) => TVEKPage(body: [PrayerTimingView()]),
+        '/route-map': (context) => RouteMapView(),
+        '/saints': (context) => SaintsView()
       },
     );
   }

@@ -15,24 +15,232 @@
   "@aboutMenu": {
     "description": "Message on About in menu"
   },
-  "bannerText1": "Title 1",
+  "bannerText1": "Welcome to official website of Pampady Cathedral",
   "@bannerText1": {
     "description": "Message on Banner in main menu"
   },
-  "bannerText2": "Title 2",
+  "bannerText2": "Aerial view of church",
   "@bannerText2": {
     "description": "Message on Banner in main menu"
   },
-  "bannerText3": "Title 3",
+  "bannerText3": "Altar",
   "@bannerText3": {
     "description": "Message on Banner in main menu"
   },
-  "bannerText4": "Title 4",
+  "bannerText4": "Night view of church",
   "@bannerText4": {
     "description": "Message on Banner in main menu"
   },
-  "bannerText5": "Title 5",
+  "bannerText5": "Festival at church",
   "@bannerText5": {
     "description": "Message on Banner in main menu"
+  },
+  "welcomeTo": "Welcome to {}",
+  "@welcomeTo": {
+    "description": "Message on welcome message section in home screen"
+  },
+  "welcomePageDescription": "St. John's Cathedral Pampady is situated in the Pampady panchayathu of Kottayam district. It is one fourth kilometer south to the Kalachanda junction of the K.K. Road by the road deviating to Manjadi.\n\nPampady St. Johns Cathedral enjoys the privilege of being one of the largest parishes in the Malankara Orthodox Church. This parish consists of fifteen wards, more or less of 45 homes, the total number of homes being 700 and members about 4000. It spreads to three neighboring panchayaths of the Kottayam district. The cathedral has the privilege of being the mother church of fifteen neighboring orthodox parishes. Pampady cathedral is closely related to the Malankara Orthodox church headquarters at Devalokam and the Kottayam diocese center. Being the only cathedral in the diocese, this parish is in the forefront of the church activities. The parish enjoys a representation of seven members in the Malankara Syrian Christian association and the diocese general body.Mr. Kurian Andrews, Chennattumattathil of this parish had been a member of the Orthodox church managing committee for long.\n\nThe new cathedral was consecrated on January 6th and 7th of 1998.This had inspired the whole parish and other well wishers of the parish. More than 6900 people gathered on that occasion. The holy sacrament was ceremonised by H.H Catholic Baselius Marthoma Mathews 2nd, assisted by H.G Paulose Mar Militheos and H.G Dr.Mathew Mar Severios. The cathedral owns a near by auditorium which has recently been extended with a double size addition to a dining seating capacity of 900.",
+  "@welcomePageDescription": {
+    "description": "Message on welcome message section in home screen"
+  },
+  "copyright": "Copyright ©{}, All Rights Reserved.",
+  "@copyright": {
+    "description": "Message on copyright section in footer"
+  },
+  "poweredBy": "Powered by TVEK Solution",
+  "@poweredBy": {
+    "description": "Message on copyright section in footer"
+  },
+  "contactUs": "Contact Us",
+  "@contactUs": {
+    "description": "Contact Us"
+  },
+  "history": "History",
+  "@history": {
+    "description": "History"
+  },
+  "saints": "Saints",
+  "@saints": {
+    "description": "Saints"
+  },
+  "festivals": "Festivals",
+  "@festivals": {
+    "description": "Festivals"
+  },
+  "management": "Management",
+  "@management": {
+    "description": "Management"
+  },
+  "spiritualOrganization": "Spiritual Organization",
+  "@spiritualOrganization": {
+    "description": "Spiritual Organization"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Gallery"
+  },
+  "routeMap": "Route Map",
+  "@routeMap": {
+    "description": "Route Map"
+  },
+  "events": "Events",
+  "@events": {
+    "description": "Events"
+  },
+  "prayerTimings": "Prayer Timings",
+  "@prayerTimings": {
+    "description": "Prayer Timings"
+  },
+  "prayerRequests": "Prayer Requests",
+  "@prayerTimings": {
+    "description": "Prayer Requests"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Address"
+  },
+  "cathedralAddress": "St. John’s Cathedral ,\nPampady P.O ,\nKottayam -686502 ,\nKerala : Ph: 0481- 2505528",
+  "@cathedralAddress": {
+    "description": "Address of church"
+  },
+  "map": "Map / Route",
+  "@map": {
+    "description": "Google Map"
+  },
+  "sundayFirstService": "Sunday First Service",
+  "@sundayFirstService": {
+    "description": "Sunday First Service"
+  },
+  "sundaySecondService": "Sunday Second Service",
+  "@sundaySecondService": {
+    "description": "Sunday Second Service"
+  },
+  "morningPrayer": "Morning Prayer",
+  "@morningPrayer": {
+    "description": "Morning Prayer"
+  },
+  "church": "Church",
+  "@church": {
+    "description": "Church"
+  },
+  "holyEucharist": "Holy Eucharist",
+  "@holyEucharist": {
+    "description": "Holy Eucharist"
+  },
+  "otherDays": "Other Days",
+  "@otherDays": {
+    "description": "Other Days"
+  },
+  "wednesday": "Wednesday",
+  "@wednesday": {
+    "description": "Wednesday"
+  },
+  "marthaMariamSamajam": "Martha Mariam Samajam",
+  "@marthaMariamSamajam": {
+    "description": "Martha Mariam Samajam"
+  },
+  "noonPrayer": "Noon Prayer",
+  "@noonPrayer": {
+    "description": "Noon Prayer"
+  },
+  "everyFirstSunday": "Every First Sunday",
+  "@everyFirstSunday": {
+    "description": "Every First Sunday"
+  },
+  "everySecondSunday": "Every Second Sunday",
+  "@everySecondSunday": {
+    "description": "Every Second Sunday"
+  },
+  "everyFourthSunday": "Every Fourth Sunday",
+  "@everyFourthSunday": {
+    "description": "Every Fourth Sunday"
+  },
+  "eveningPrayerAndIntercession": "Evening Prayer And Intercession",
+  "@eveningPrayerAndIntercession": {
+    "description": "Evening Prayer & Intercession"
+  },
+  "stGregoriosShrineKalachandaJn": "St. Gregorios Shrine,\n Kalachanda Jn",
+  "@stGregoriosShrineKalachandaJn": {
+    "description": "St. Gregorios Shrine,Kalachanda Jn"
+  },
+  "prakashamPrathanaSamagamam": "Prakasham Prathana Samagamam",
+  "@prakashamPrathanaSamagamam": {
+    "description": "Prakasham Prathana Samagamam"
+  },
+  "stGeorgeShrineKGMSSJnSPampady": "St. George Shrine,\n KGM SS Jn, S Pampady",
+  "@stGeorgeShrineKGMSSJnSPampady": {
+    "description": "St. George Shrine,KGM SS Jn, S Pampady"
+  },
+  "saintMaryorVirginMary": "Saint Mary, or Virgin Mary",
+  "@saintMaryorVirginMary": {
+    "description": "Saint Mary, or Virgin Mary"
+  },
+  "saintMarySubtitle": "The mother of God, an object of veneration in the Christian church since the apostolic age",
+  "@saintMarySubtitle": {
+    "description": "Sub title for Saint Mary"
+  },
+  "saintMaryDescription": "God who created everything deserves indeed all praise and adoration. He created Adam, the first man as the crown of creation, and from him Eve, the first woman. He settled them in the Garden of Eden, which was modeled in the style of heavenly Paradise.\n\nThe first parents, by their disobedience, forfeited this earthly Paradise, which was given to them as a free gift. Mary is the one whom God created in the model of this lost Paradise. Mary reestablished the virtues, holiness and the celestial beauty which Eve, the first woman had forfeited.\n\nThe Son of God, who is in fact, the sun of justice and eternal Sun, took flesh from Mary and dwelt in her. Mary was the daughter of S.S Anna and Joachim. She was always obedient to her parents.\n\nAssumption of The Holy Virgin Mary, Mother Of God (Shoonoyo) celebrated in the church with more importance on August 15.",
+  "@saintMaryDescription": {
+    "description": "Description for Saint mary"
+  },
+  "saintThomas": "St.Thomas",
+  "@saintThomas": {
+    "description": "St.Thomas"
+  },
+  "saintThomasSubtitle": "Apostle of India and Originator of Malankara Sabha on AD 52",
+  "@saintThomasSubtitle": {
+    "description": "Sub title for St.Thomas"
+  },
+  "saintThomasDescription": "St. Thomas is one of the twelve apostles of Jesus Christ. He is one who directly and personally experienced Jesus. His Christ experience was so deep and intense that he took up joyfully the hazardous long journey to India and shared it with our forefathers. Thus he became the apostle of India. Mar Thomma Margam is the special Christian life-style, initiated by him here in India. He sacrificed his own life in order to bear witness to this particular life-style.\n\nSt. Thomas expressed his supreme love of God by proclaiming his readiness to die with Jesus. He was instrumental for clarifying the redemptive role of Jesus. He himself was fortunate to bear witness to the Resurrection of Jesus as the representative of the twelve.\n\nOn Pentecost day the apostles were filled with the Holy Spirit. Then they went to the different parts of the world to bear witness to Jesus the Redeemer. The destination of St. Thomas was our own motherland India.\n\nSt. Thomas reached India in 52 A. D. Having arrived at Maliyankara (Kodugalloor), he traveled from one end of Kerala to the other and established 7 churches (faith-communities) there. They are: Kodugalloor,Paloor, Kottakkavu(Paravoor), Kokkamangalam,Niranam, Kollam and Chayal(Nilakal). He also established the famous 'Arappally' at Thiruvithakodu with help of 'Aracha' kings. In Mylapore (Madras), he embraced martyrdom in the year 72 A. D. The tomb of St. Thomas is venerated to this day in the Cathedral Church of Mylapore in Madras.",
+  "@saintThomasDescription": {
+    "description": "Description for St.Thomas"
+  },
+  "gheevargheseSahadha": "Mar Gheevarghese Sahadha",
+  "@gheevargheseSahadha": {
+    "description": "Mar Gheevarghese Sahadha"
+  },
+  "gheevargheseSahadhaSubtitle": "With Intercession St. George Shrine at KGM Sunday junction established & Feast on April celebrate on the shrine",
+  "@gheevargheseSahadhaSubtitle": {
+    "description": "Sub title for Gheevarghese Sahadha"
+  },
+  "gheevargheseSahadhaDescription": "He relinquished his high position in the Roman army and sacrificed his life for Christ. He is the protector against evils. He never fails to answer his devotees. A legendary warrior on a white horse killing a dragon symbolises this belief.\n\nHe was a persecutor of Christians earlier. Later he was moved by the faith of Christians inspite of such persecutions and killings. He embraced Christianity under the name George and ultimately attained martyrdom in defending his Christian faith. People in distress invoke his intercession. It is believed that a mere utterance of his name wards off snakes and evil spirits.\n\nFeast of the saint is proudly celebrated on last sunday of April at St.George Shrine,KGM Sunday School junction.",
+  "@gheevargheseSahadhaDescription": {
+    "description": "Description for Gheevarghese Sahadha"
+  },
+  "parumalaThirumeni": "Parumala Thirumeni",
+  "@parumalaThirumeni": {
+    "description": "Parumala Thirumeni"
+  },
+  "parumalaThirumeniSubtitle": "The saint is one of the patron saints of the parish",
+  "@parumalaThirumeniSubtitle": {
+    "description": "Sub title for Parumala Thirumeni"
+  },
+  "parumalaThirumeniDescription": "The saint is one of the patron saints of the parish. He has already been declared as a saint.\nMar Gregorios was a man of prayer and fasting. He led a very disciplined and rigorous life, which made him sick and physically weak. He was a well-known writer and literary genius. His accounts of his pilgrimage to the Holy Land is classic in travel literature in Malayalam language. He was an educator, who established many schools.\n\nHe was a pioneer in social reform, who worked among the low caste people of Kerala, educating them and establishing parishes for those who became Christians. He was venerated as a saint while he was alive. He passed away at the relative young age of 54 and his mortal remains lay entombed at PARUMALA. He was canonized and declared a saint in 1947 by the Church. His tomb has become a place of pilgrimage for the faithful and even for non-Christians. Miracles have been experienced and healing have taken place by his intercession.\n\nFeast of the saint is reverently celebrated on November first week at St. Gregorios Shrine , Kalachanda Junction.",
+  "@parumalaThirumeniDescription": {
+    "description": "Description for Parumala Thirumeni"
+  },
+  "vattasserilThirumeni": "St. Gheevarghese Mar Dionysius ,Vattasseril",
+  "@vattasserilThirumeni": {
+    "description": "St. Gheevarghese Mar Dionysius ,Vattasseril"
+  },
+  "vattasserilThirumeniSubtitle": "Malankara Sabha Bhasuran ( Architect of Catholicate & Constituion of Malankara Sabha)",
+  "@vattasserilThirumeniSubtitle": {
+    "description": "Sub title for St. Gheevarghese Mar Dionysius ,Vattasseril"
+  },
+  "vattasserilThirumeniDescription": "Proclaimed as the second saint of Malankara in 2003, His Grace was known as “Malankara Sabha Bhasuran”(Sun of Malankara Church), Saint Dionysius protected the independence of Malankara church and guarded against the dictatorship of the Patriarch. Born in 1858; ordained as deacon in 1879, as priest in 1880, His Grace was Malankara Malpan in Old Seminary, Kottayam and Parumala Seminary thereafter. His Grace’s scholarly skills are apparent from the literary works and translations from Syriac language. His Grace was ordained as Episcopa in 1908 and elected as Malankara Metropolitan in 1909. His Grace blocked the move of Patriarch Abdullah, who came to Malankara in 1910 to seize control of Malankara Church. During the period 1911 to 1934, His Grace had to face ex-communication, attempt on life, betrayal of Mar Ivanious (Malankara Rite), and yet got the catholicate established here in 1912, and framed a constitution for the church in 1934, which helped the church to be autocephalous. His Grace was a follower and disciple of Saint Gregorious of Parumala, His Grace was a scholar who led simple and pious life which stood in good stead during all crises, until his demise in 1934. Thousands seek his intercession.",
+  "@vattasserilThirumeniDescription": {
+    "description": "Description for St. Gheevarghese Mar Dionysius ,Vattasseril"
+  },
+  "pampadyThirumeni": "Pampady Thirumeni",
+  "@pampadyThirumeni": {
+    "description": "Pampady Thirumeni"
+  },
+  "pampadyThirumeniSubtitle": "H.G. Kuriakose Mar Gregorios is in very high estimation of the whole parish. The saint was born and brought up in this parish and spent a decade of his early priesthood",
+  "@pampadyThirumeniSubtitle": {
+    "description": "Sub title for Pampady Thirumeni"
+  },
+  "pampadyThirumeniDescription": "H.G. Kuriakose Mar Gregorios is in very high estimation of the whole parish. The saint was born and brought up in this parish and spent a decade of his early priesthood in this parish. Although he has not yet been declared as a saint, his worshippers in multitude consider him to be a saint next to Parumala Thirumeni. Thousands of people gather at the cathedral to observe the festival of Pampady Thirumeni in February every year. One of the altars of the renovated church is named after the late saintly Bishop.\n\nOf late on third Sunday on February every year a festival has been celebrated to commemorate the installation of Pampady thirumeni to be the Bishop in 1929. His day of demise on April 5 also attracts thousands to the cathedral from where the pilgrim's procession starts in the previous evening to reach his eternal resting place at Pampady Dayara.",
+  "@pampadyThirumeniDescription": {
+    "description": "Description for Pampady Thirumeni"
   }
 }
