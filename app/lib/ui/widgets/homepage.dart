@@ -1,8 +1,12 @@
+import 'package:app/tvek_flutter_core/localization/tvek_app_localization.dart';
 import 'package:app/tvek_flutter_core/localization/tvek_carousel_widget.dart';
 import 'package:app/tvek_flutter_core/localization/tvek_scaffold.dart';
+import 'package:app/ui/widgets/prayer_timing_view.dart';
+import 'package:app/ui/widgets/welcome_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:format/format.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,10 +16,11 @@ class HomePage extends StatelessWidget {
     List<CarouselRow> bannerRows = [
       CarouselRow(AppLocalizations.of(context)!.bannerText1, "images/banner_1.jpeg"),
       CarouselRow(AppLocalizations.of(context)!.bannerText2, "images/banner_2.jpeg"),
-      CarouselRow(AppLocalizations.of(context)!.bannerText3, "images/banner_1.jpeg"),
-      CarouselRow(AppLocalizations.of(context)!.bannerText4, "images/banner_2.jpeg"),
-      CarouselRow(AppLocalizations.of(context)!.bannerText5, "images/banner_1.jpeg"),
+      CarouselRow(AppLocalizations.of(context)!.bannerText3, "images/banner_3.jpeg"),
+      CarouselRow(AppLocalizations.of(context)!.bannerText4, "images/banner_4.jpeg"),
+      CarouselRow(AppLocalizations.of(context)!.bannerText5, "images/banner_5.jpeg"),
     ];
+    final siteName = TVEKAppLocalization.of(context)!.siteName;
 
     return TVEKScaffoldWidget(
         body: Center(
@@ -38,7 +43,9 @@ class HomePage extends StatelessWidget {
             // horizontal).
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              CarouselWidget(rows: bannerRows, transitionTime: 2000,)
+              CarouselWidget(rows: bannerRows, transitionTime: 5,),
+              WelcomePage(title: TVEKAppLocalization.of(context)!.welcomeTo.format(siteName),),
+              PrayerTimingView()
             ],
           ),
         ) // This trailing comma makes auto-formatting nicer for build methods.

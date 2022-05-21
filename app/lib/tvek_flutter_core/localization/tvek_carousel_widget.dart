@@ -26,8 +26,8 @@ class CarouselWidget extends StatelessWidget {
         enableInfiniteScroll: true,
         reverse: false,
         autoPlay: true,
-        autoPlayInterval: Duration(seconds: 3),
-        autoPlayAnimationDuration: Duration(milliseconds: transitionTime),
+        autoPlayInterval: Duration(seconds: transitionTime),
+        autoPlayAnimationDuration: Duration(milliseconds: 1500),
         autoPlayCurve: Curves.fastOutSlowIn,
         enlargeCenterPage: true,
         scrollDirection: Axis.horizontal,
@@ -40,9 +40,9 @@ class CarouselWidget extends StatelessWidget {
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: new AssetImage(
+                    image: AssetImage(
                         "${rowItem.imgPath}"),
-                    fit: BoxFit.fill,
+                    fit: BoxFit.cover,
                   ),
                   borderRadius:
                   BorderRadius.only(topLeft: Radius.circular(80), topRight: Radius.circular(80)),

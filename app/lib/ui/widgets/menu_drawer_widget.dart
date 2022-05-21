@@ -1,3 +1,4 @@
+import 'package:app/tvek_flutter_core/localization/tvek_api.dart';
 import 'package:app/tvek_flutter_core/localization/tvek_app_localization.dart';
 import 'package:app/ui/widgets/app_constants.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +12,7 @@ class MenuDrawerWidget extends StatefulWidget {
 
 class _MenuDrawerWidgetState extends State<MenuDrawerWidget> {
 
-  late final List<MenuItem> _menuList;
+  late final List<HomeMenuItem> _menuList;
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +32,7 @@ class _MenuDrawerWidgetState extends State<MenuDrawerWidget> {
     List<ListTile> menuItemList = _menuList.map((menuItem) => ListTile(
       leading: Icon(menuItem.icon),
       title: Text(menuItem.text),
-      onTap: () => selectDestination(menuItem.transitionLink),
+      onTap: () => TVEKAPI.navigateToDestination(context, menuItem.transitionLink),
     )).toList();
     menuWidgetList = menuWidgetList + menuItemList + [
       Divider(
